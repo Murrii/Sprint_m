@@ -6,3 +6,6 @@ AUTH_URL = "signin"
 
 # errors text
 ERROR_REGISTER_NOT_UNIQUE_EMAIL = "Почта уже используется"
+
+# data for auth
+AUTH_DATA = {"email": "ktrof_001@mail.ru", "password": "ktrof_001@mail.ru"}
