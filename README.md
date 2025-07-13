@@ -13,4 +13,5 @@
 
 Сгенерировать отчет о тестировании в формате html: 
 > `$ pytest tests.py --alluredir=allure_results
+
 > `$ allure serve allure_results`
