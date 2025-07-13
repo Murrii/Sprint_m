@@ -13,3 +13,8 @@ class AuthMethods:
     def auth_user(self):
         response = requests.post(url=self.url, data=self.payload)
         return response.status_code, response.json()
+
+    @allure.step("передаем данные пользователя и получаем токен")
+    def get_token_auth_user(self, auth_data):
+        response = requests.post(url=self.url, data=auth_data)
+        return "Bearer " + response.json()["token"]["access_token"]
