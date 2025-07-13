@@ -5,6 +5,7 @@ REGISTER_URL = "signup"
 AUTH_URL = "signin"
 CREATE_LISTING_URL = "create-listing"
 UPDATE_ORDER_URL = "update-offer/"
+DELETE_ORDER_URL = "listings/"
 
 # errors text
 ERROR_REGISTER_NOT_UNIQUE_EMAIL = "Почта уже используется"
@@ -16,3 +17,6 @@ AUTH_DATA_SECOND_USER = {"email": "ktrof_002@mail.ru", "password": "ktrof_002@ma
 
 # list of categories
 CATEGORIES = ["Авто", "Книги", "Садоводство", "Хобби", "Технологии"]
+
+# successful order delete text
+SUCCESSFUL_ORDER_DELETE_TEXT = "Объявление удалено успешно"

@@ -4,7 +4,7 @@ import allure
 from data import BASE_URL, UPDATE_ORDER_URL
 
 
-class UpdateOrder:
+class UpdateOrderMethods:
     @allure.step("Сохраняем для объекта url ручки, токен, headers и обновленный payload")
     def __init__(self, auth_token, order_id, new_name):
         self.url = BASE_URL + UPDATE_ORDER_URL + str(order_id)
